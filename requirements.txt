@@ -1,0 +1,10 @@
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+requests
+tabulate
+colorama>=0.3.8
+future
+h2o
