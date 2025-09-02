@@ -28,7 +28,9 @@ The target variable (`Potability`) indicates whether the water is **safe to drin
 ## Steps Taken  
 
 1. **Importing Libraries and Dataset**  
-   - Imported `numpy`, `pandas`, `matplotlib`, `seaborn`, and `sklearn`  
+  - Imported Python libraries for data handling, visualization, and machine learning, including:  
+  `numpy`, `pandas`, `matplotlib`, `seaborn`, `sklearn` modules (`train_test_split`, `ExtraTreesClassifier`, `StandardScaler`, `LogisticRegression`, `SVC`, `RandomForestClassifier`, `accuracy_score`, `confusion_matrix`, `classification_report`, `roc_auc_score`, `roc_curve`, `precision_recall_curve`), and `h2o` with `H2OAutoML`.
+ 
    - Loaded the dataset and inspected its shape, structure, and missing values  
 
 2. **Data Analysis and Preprocessing**  
@@ -58,10 +60,10 @@ The target variable (`Potability`) indicates whether the water is **safe to drin
 - **Random Forest ROC AUC: 0.669** → Above random guessing, but with room for improvement  
 
 - **ROC Curve**: Showed moderate discriminative ability  
-  ![ROC Curve](images/roc_curve.png)  
+  <img src="images/roc_curve.png" alt="ROC Curve" width="500"/>
 
 - **Precision–Recall Curve**: Highlighted the trade-off between precision and recall, especially given class imbalance  
-  ![Precision–Recall Curve](images/pr_curve.png)  
+  <img src="images/pr_curve.png" alt="Precision–Recall Curve" width="500"/>)  
 
 
 ---
@@ -81,7 +83,6 @@ The target variable (`Potability`) indicates whether the water is **safe to drin
 - seaborn, matplotlib  
 - scikit-learn (LogisticRegression, SVM, RandomForest, ExtraTrees, metrics, preprocessing, model_selection)  
 - H2O AutoML  
-- requests, tabulate, colorama, future
 
 ---
 
